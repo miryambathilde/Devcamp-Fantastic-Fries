@@ -1,0 +1,23 @@
+.btn {
+   background-color: #cea135;
+   color: #11122b;
+   font-size: 1.25rem;
+   padding: 10px 25px;
+   border: 1px solid #cea135;
+   border-radius: 2px;
+   outline: none;
+   transition: 0.3s; 
+}
+
+
+/* PARA DAR ESTILO AL BOTON CUANDO CLICAMOS PARA ENVIAR */
+.btn:active {
+   box-shadow: 5px 5px 30px rgb(0, 0, 0, 0.4);
+}
+
+/* PARA CENTRAR EL BOTON DE ENVIAR Y DARLE FORMATO */
+/* FLEXBOX */
+.center-btn-wrapper {
+   display: flex;
+   justify-content: center;
+}
