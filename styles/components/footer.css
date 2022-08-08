@@ -1,0 +1,81 @@
+/* Footer styles */
+.footer {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.logo-footer {
+    margin-top: 36px;
+}
+
+.footer > .logo-footer img {
+    width: 180px;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+.footer > .footer-phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+/* IS MORE ESPECIFIC */
+.footer > .footer-phone-hours > .hours {
+    font-size: 0.8em;
+    color: #cea135;
+    text-transform: uppercase;
+}
+
+.footer > .links-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+/* .footer > .links-wrapper > .nav-link a {
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+} */
+
+.footer > .social-media-icons-wrapper {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .footer > .links-wrapper > .nav-link a:hover {
+    color: #cea135;
+} */
+
+/* SPACE AROUND: ESPACIO ENTRE LOS ICONOS */
+
+/* PARA CAMBIAR EL COLOR DE LOS ICONOS DE AZUL A BLANCO */
+.footer > .social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+/* HOVER ES PARA CUANDO SE PONE EL RATON ENCIMA */
+.footer > .social-media-icons-wrapper a:hover {
+    color: #cea135;
+}
+
+/* 0.7em es lo mismo que el 70% del tamaño normal */
+.footer > .copyright-wrapper {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}

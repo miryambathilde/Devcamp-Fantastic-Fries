@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+    /* .form {
+        padding-right: 84px;
+    } */
+
+    .page-container .contact-grid-wrapper {
+        width: 500px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        justify-content: center;
+    }
+
+    .contact-grid-wrapper .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-grid-wrapper .company-metada-sidebar-wrapper > .logo img {
+        width: 50%;
+    }
+
+    .contact-grid-wrapper .center-btn-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content {
+        flex-direction: column;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 615px) {
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    /* FLEXBOX PARA ORDENAR LOS ELEMENTOS */
+    /* TELEFONO DE CONTACTO */
+    .navigation-wrapper > .left-column {
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    /* LOGO */
+    .navigation-wrapper > .center-column {
+        order: 1;
+        width: 100%;
+    }
+
+    /* DIRECCIÓN */
+    .navigation-wrapper > .right-column {
+        order: 3;
+        margin-top: 15px;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper {
+        flex-direction: row;
+        margin-top: 10px;
+    }
+
+    /* LINKS DE NAVEGACION (HOME, ABOUT, MENU Y CONTACT */
+    .links-wrapper {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .links-wrapper > .nav-link {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .squares-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /* COLUMNA CENTRAL - BANNER */
+    .hero-section {
+        padding: 50px 10px;
+    }
+    /* ICONOS Y CARACTERISTICAS */
+    .feature-section {
+        height: 100%;
+    }
+    /* ICONOS Y CARACTERISTICAS Y MAPA */
+    .feature-section > .columns-wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contact-grid-wrapper .form input,
+    .contact-grid-wrapper .form textarea {
+        width: 84%;
+    }
+    /* PIE DE PAGINA */
+    .footer {
+        height: 100%;
+    }
+}

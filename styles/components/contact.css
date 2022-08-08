@@ -1,0 +1,31 @@
+/*  CUADRICULA CSS CON DOS COLUMNAS */
+.contact-grid-wrapper {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+
+/* VAMOS A HACER LA IMAGEN MAS PEQUEÑA */
+.company-metada-sidebar-wrapper > .logo img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* FLEXBOX CONTENEDOR DE LOS DETALLES DE DIRECCION, TELEFONO Y HORARIO */
+.company-metada-sidebar-wrapper > .company-details-wrapper {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em;
+}
+
+/* PARA CAMBIAR EL COLOR DE LOS ICONOS DE TELEFONO, MAPA Y HORARIO */
+.company-metada-sidebar-wrapper > .company-details-wrapper i {
+    color: #cea135;
+}

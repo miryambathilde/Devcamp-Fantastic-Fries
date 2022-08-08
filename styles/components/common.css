@@ -1,0 +1,11 @@
+/* SON COMUNES EN TODAS LAS PAGINAS DE LA WEB */
+/* Common styles */
+body {
+    margin: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+

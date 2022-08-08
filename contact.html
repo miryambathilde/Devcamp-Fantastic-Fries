@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Contact Us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <html translate="no">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap"
+        rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/common.css">
-    <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/skewed-header.css">
-    <link rel="stylesheet" href="styles/page-container.css">
-    <link rel="stylesheet" href="styles/helpers.css">
-    <link rel="stylesheet" href="styles/contact.css">
-    <link rel="stylesheet" href="styles/forms.css">
-    <link rel="stylesheet" href="styles/buttons.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/components/common.css">
+    <link rel="stylesheet" href="styles/components/nav.css">
+    <link rel="stylesheet" href="styles/components/footer.css">
+    <link rel="stylesheet" href="styles/components/skewed-header.css">
+    <link rel="stylesheet" href="styles/components/page-container.css">
+    <link rel="stylesheet" href="styles/utils/helpers.css">
+    <link rel="stylesheet" href="styles/utils/media-queries.css">
+    <link rel="stylesheet" href="styles/components/contact.css">
+    <link rel="stylesheet" href="styles/components/forms.css">
+    <link rel="stylesheet" href="styles/components/buttons.css">
 </head>
+
 <body>
     <!-- ENCABEZADO -->
-    <div class="skewed-header">
-        <div class="header-bg" style="background-image: url('images/background/contact.jpg');"></div>
+    <header class="skewed-header">
+        <div class="header-bg" style="background-image: url('images/background/contact.jpg');">
+        </div>
 
         <div class="skewed-header-wrapper">
             <div class="skewed-header-content">
@@ -31,50 +39,50 @@
                     <h1>Contact</h1>
                 </div>
 
-                <div class= "links-wrapper">
+                <div class="links-wrapper">
                     <div class="nav-link">
                         <a href="index.html">Home</a>
                     </div>
-                            
+
                     <div class="nav-link">
                         <a href="about.html">About</a>
                     </div>
-    
+
                     <div class="nav-link">
                         <a href="menu.html">Menu</a>
                     </div>
-    
+
                     <div class="nav-link">
                         <a href="contact.html">Contact</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 
     <!-- CONTENIDO DE LA PAGINA -->
-    <div class="page-container">
+    <main class="page-container">
         <div class="contact-grid-wrapper">
             <!-- BARRA LATERAL -->
             <div class="company-metada-sidebar-wrapper">
                 <div class="logo">
                     <img src="images/logos/decamp-fantastic-fries-logo-dark.png" alt="Logo">
                 </div>
-                
+
                 <!-- CONTENEDOR DE ICONOS DE AWESOME, TELEFONO, DIRECCIÓN Y HORARIO -->
-                <div class="company-details-wrapper" >
-                     <i class="fas fa-phone-volume"></i>
+                <div class="company-details-wrapper">
+                    <i class="fas fa-phone-volume"></i>
                     <div>937812567</div>
                 </div>
-                
-                <div class="company-details-wrapper" >
+
+                <div class="company-details-wrapper">
                     <i class="fas fa-map-marker-alt"></i>
                     <div>
                         Avda de Madrid, 91 Bajo<br>08028 Barcelona
                     </div>
                 </div>
 
-                <div class="company-details-wrapper" >
+                <div class="company-details-wrapper">
                     <i class="far fa-clock"></i>
                     <div>10h - 18h</div>
                 </div>
@@ -99,28 +107,28 @@
                 </div>
 
                 <div class="spcar10"></div>
-            
+
                 <!-- BOTON DE ENVIO -->
                 <div class="center-btn-wrapper">
                     <button type="submit" class="btn">Send</button>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 
     <!-- SPACER HELPERS -->
     <div class="spacer60"></div>
 
-    
+
     <!-- footer -->
-    <div class="footer">
+    <footer class="footer">
         <div class="logo-footer">
             <img src="images/logos/decamp-fantastic-fries-logo-white.png" alt="Logo">
         </div>
 
         <div class="footer-phone-hours">
             <span class="phone">
-                937812567   
+                937812567
             </span>
 
             <span class="hours">
@@ -128,11 +136,11 @@
             </span>
         </div>
 
-        <div class= "links-wrapper">
+        <div class="links-wrapper">
             <div class="nav-link">
                 <a href="index.html">Home</a>
             </div>
-                    
+
             <div class="nav-link">
                 <a href="about.html">About</a>
             </div>
@@ -163,7 +171,7 @@
         <div class="copyright-wrapper">
             &copy; 2020 Miryam Bathilde &#124; All rights reserved
         </div>
-    </div>
+    </footer>
 </body>
-</html>
 
+</html>
